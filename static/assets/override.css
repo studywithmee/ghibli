@@ -2,6 +2,10 @@
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+body {
+  overflow: hidden;
+}
+
 /* Header */
 header {
   position: absolute;
@@ -113,6 +117,7 @@ footer {
   color: #fff;
   position: absolute;
   left: 32px;
+  font-size: 16px;
   line-height: 54px;
   z-index: -1;
 }
